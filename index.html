@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo homepage</title>
+
+    <link rel="stylesheet" href="./todo-reset.css">
+    <link rel="stylesheet" href="todo.css">
 </head>
 <body>
     <header>
-        <img src="./Untitled-1.png" alt="logo for ToDO website" width="200" height="120">
-        <h1>ToDo</h1>
-        <section>
+        
+        <section class="navbar">
+            <img src="./Untitled-1.png" alt="logo for ToDO website" > 
+            <h1>ToDo</h1>
             <nav>
                 <a href="./index.html">Homepage</a>
                 <a href="">Create a list</a>
@@ -23,46 +27,47 @@
     <main>
         <table>
             <tr>
-                <th>Task</th>
-                <th>Status</th>
+                <th class="tablehead">Task</th>
+                <th class="tablehead">Status</th>
             </tr>
             <tr>
-                <td>Breakfast</td>
-                <td>Done
+                <td class="cell">Breakfast</td>
+                <td class="cell" ><p class="parag">Done</p>
                     <input type="checkbox" checked>
                 </td>
 
             </tr>
             <tr>
-                <td>Workout</td>
-                <td>Done
+                <td class="cell">Workout</td>
+                <td class="cell" ><p class="parag">Done</p>
                     <input type="checkbox" checked>
                 </td>
             </tr>
             <tr>
-                <td>cleaned the room</td>
-                <td>To Do!
+                <td class="cell">Cleaned the room</td>
+                <td class="cell" > <p class="paragF">To Do!</p>
                     <input type="checkbox" >
                 </td>
 
             </tr>
         </table>
     </main>
-    <footer>
-        <p>Contact info:<br>
+    <footer class="foot">
+        <p class="contact">Contact info:<br>
             Phone no. : 962 123 45678<br>
             Telephone no. : 06 483 4589<br>
             Email: ToDo@mail.com<br>
             </p>
 
-            <section>
-                <p>Social Media:</p>
+            <p class="social">
+                Social Media:
+                
                 <a href="https://twitter.com/home">Twitter</a>
                 <a href="https://facebook.com/">Facebook</a>
                 <a href="https://instagram.com/">Instagram</a>
-            </section>
+            </p>
             <video src=""></video>
-        &copy; ToDo. All rights reserved .
+        <p class="rights">&copy; ToDo. All rights reserved .</p>
     </footer>
 </body>
 </html>
