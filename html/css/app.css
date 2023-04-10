@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
+
+
+header {
+    background-color: #262A56;
+    border: #282a3d solid;
+    border-radius: 5px;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1 {
+    font-size: xx-large;
+    font-family: 'Chivo Mono', monospace;
+}
+.logo img {
+    width: 120px;
+}
+
+ section .navbar a {
+padding: 10px 40px;
+text-decoration: none;
+border: 2px solid #B8621B;
+border-radius: 5px;
+margin: 4px;
+font-family: 'Chivo Mono', monospace;
+color: #B8621B;
+ }
+ 
+ 
+ section .reg a {
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 2px solid #B8621B;
+    border-radius: 5px;
+    margin: 4px;
+    color: #B8621B;
+ }
+ .navbar-1 {
+    display: flex;
+   
+ }
+ .navbar-2 {
+    display: flex;
+ }
+
+ main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-color: #000000;
+ }
+ main section {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: #B8621B solid 3px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #262A56;
+ } main section table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+ } main section thead {
+    border: #B8621B solid 3px;
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-family: 'Chivo Mono', monospace;
+    color: #B8621B;
+ }
+ main section tbody , main section tbody tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    font-family: 'Chivo Mono', monospace;
+    color: #B8621B;
+ }
+
+ /* footer */
+
+ footer {
+    background-color: #262A56;
+    border: solid 3px #282a3d;
+    color: #B8621B;
+ }
+ footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+ }
+
+ .social a {
+    text-decoration: none;
+    color: #B8621B;
+ }
+ 
+ 
+ 
